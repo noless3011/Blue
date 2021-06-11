@@ -18,6 +18,7 @@ public class Player_move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if(Input.GetMouseButton(0))
         {
             Vector3 mousePos = Input.mousePosition;
@@ -33,4 +34,12 @@ public class Player_move : MonoBehaviour
         }
         
     }
+    private void OnCollisionEnter(Collision other) {
+        Vector2 currentSpeed = rb.velocity.normalized;
+        // if ((currentSpeed.x + currentSpeed.y) > -1000)
+        
+        Debug.Log(currentSpeed.x + currentSpeed.y);
+        
+    }
+    
 }

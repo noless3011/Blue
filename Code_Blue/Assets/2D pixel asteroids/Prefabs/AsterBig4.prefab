@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 969904161304041633}
   - component: {fileID: 902199544028026708}
-  - component: {fileID: -2944031608967816205}
   - component: {fileID: 5313509178372064154}
+  - component: {fileID: 6189687057045280853}
   m_Layer: 0
   m_Name: AsterBig4
   m_TagString: Untagged
@@ -85,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-2944031608967816205
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416072628507055035}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.86, y: 1.72}
-    newSize: {x: 1.86, y: 1.72}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.86, y: 1.72}
-  m_EdgeRadius: 0
 --- !u!50 &5313509178372064154
 Rigidbody2D:
   serializedVersion: 4
@@ -132,3 +106,45 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &6189687057045280853
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416072628507055035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.86, y: 1.72}
+    newSize: {x: 1.86, y: 1.72}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.93, y: 0.56}
+      - {x: 0.84999996, y: 0.62}
+      - {x: 0.72999996, y: 0.7}
+      - {x: 0.42999998, y: 0.82}
+      - {x: -0.01, y: 0.79999995}
+      - {x: -0.13, y: 0.85999995}
+      - {x: -0.78999996, y: 0.85999995}
+      - {x: -0.93, y: 0.62}
+      - {x: -0.93, y: -0.35999998}
+      - {x: -0.72999996, y: -0.59999996}
+      - {x: -0.57, y: -0.68}
+      - {x: -0.37, y: -0.71999997}
+      - {x: -0.17, y: -0.85999995}
+      - {x: 0.39, y: -0.85999995}
+      - {x: 0.48999998, y: -0.82}
+      - {x: 0.57, y: -0.65999997}
+      - {x: 0.93, y: -0.28}
